@@ -8,6 +8,10 @@ For our classification task, we used the Satellite Remote Sensing Image-RSI-CB25
 3. Desert
 4. Green Area
 
+Input Image Size (224,224,3)
+Batch Size 64
+
+
 ## Pre-Processing
 
 Since the dataset included only images already focused on the aspect that is the basis for classification, and does not as such involve spatial data or any other special formats, packages like EarthPy were not required for dataset loading and preprocessing. Only standard tensor flow image manipulation functions were used.
