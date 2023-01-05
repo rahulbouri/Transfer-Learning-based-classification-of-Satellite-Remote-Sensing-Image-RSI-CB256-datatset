@@ -10,8 +10,8 @@ For our classification task, we used the Satellite Remote Sensing Image-RSI-CB25
 
 ## Pre-Processing
 
-Since the dataset included only images already focused on the aspect that is the basis for classi�cation, and does not as such involve spatial data or any other special formats, packages like EarthPy were not required for dataset loading and preprocessing. Only standard tensor�ow image manipulation functions were used.
-Since, as shown above, the images in the dataset are of di�erent sizes, the images were rescaled to a standard size of (224, 224, 3). Apart from this, no other preprocessing was required for the application.
+Since the dataset included only images already focused on the aspect that is the basis for classification, and does not as such involve spatial data or any other special formats, packages like EarthPy were not required for dataset loading and preprocessing. Only standard tensor flow image manipulation functions were used.
+Since, as shown above, the images in the dataset are of different sizes, the images were rescaled to a standard size of (224, 224, 3). Apart from this, no other preprocessing was required for the application.
 
 ## Model
 
@@ -28,3 +28,5 @@ The highest training accuracy reached in 5 epochs was 0.9969. This was greatly d
 | 3. | 0.0168   | 0.9964        |
 | 4. | 0.0405   | 0.9911        |
 | 5. | 0.0105      | 0.9969       |
+
+The model was then run on the remaining 20% of the dataset (1126 images) and a test loss of 0.043 and a test accuracy of 0.9902 was achieved.
