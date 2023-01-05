@@ -21,7 +21,10 @@ Transfer learning was used for classification. Specifically, VGG19 was used as t
 
 The highest training accuracy reached in 5 epochs was 0.9969. This was greatly due to the pretrained weights extracted from VGG19. The following shows the values of training loss and accuracy over the 5 epochs.
 
-| Training Loss      | Training Accuracy |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| Epoch | Training Loss      | Training Accuracy | 
+| ----- | ------------------ | ----------- |
+| 1. | 2.7011      | Title       |
+| 2. | 0.0455   | Text        |
+| 3. | 0.0168   | Text        |
+| 4. | 0.0405   | Text        |
+| 5. | 0.0155      | Title       |
