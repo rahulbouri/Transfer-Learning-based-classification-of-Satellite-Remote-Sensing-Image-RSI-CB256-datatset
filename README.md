@@ -23,8 +23,8 @@ The highest training accuracy reached in 5 epochs was 0.9969. This was greatly d
 
 | Epoch | Training Loss      | Training Accuracy | 
 | ----- | ------------------ | ----------- |
-| 1. | 2.7011      | Title       |
-| 2. | 0.0455   | Text        |
-| 3. | 0.0168   | Text        |
-| 4. | 0.0405   | Text        |
-| 5. | 0.0155      | Title       |
+| 1. | 2.7011      | 0.8848      |
+| 2. | 0.0455   | 0.9905        |
+| 3. | 0.0168   | 0.9964        |
+| 4. | 0.0405   | 0.9911        |
+| 5. | 0.0105      | 0.9969       |
